@@ -283,7 +283,7 @@ blocks:
       6:
         name: Polished Andesite
         tex: [9, 16]
-        
+
   - id: 2
     idStr: grass
     name: Grass
@@ -671,25 +671,25 @@ blocks:
         tex_direction:
           TOP: [18, 5]
           BOTTOM: [14, 3]
-      2: 
+      2:
         name: Dispenser (North)
         tex_direction:
           FORWARD: [14, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      3: 
+      3:
         name: Dispenser (South)
         tex_direction:
           BACKWARD: [14, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      4: 
+      4:
         name: Dispenser (West)
         tex_direction:
           LEFT: [14, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      5: 
+      5:
         name: Dispenser (East)
         tex_direction:
           RIGHT: [14, 2]
@@ -1196,25 +1196,25 @@ blocks:
 #       null
 #     1:
 #       null
-      2: 
+      2:
         name: Chest (North)
         tex_direction:
           FORWARD: [18, 3]
           TOP: [16, 3]
           BOTTOM: [16, 3]
-      3: 
+      3:
         name: Chest (South)
         tex_direction:
           BACKWARD: [18, 3]
           TOP: [16, 3]
           BOTTOM: [16, 3]
-      4: 
+      4:
         name: Chest (West)
         tex_direction:
           LEFT: [18, 3]
           TOP: [16, 3]
           BOTTOM: [16, 3]
-      5: 
+      5:
         name: Chest (East)
         tex_direction:
           RIGHT: [18, 3]
@@ -1279,13 +1279,12 @@ blocks:
     tex_direction:
       TOP: [7, 5]
     data:
-      0: 
+      0:
         name: Farmland (Dry)
-      7: 
+      7:
         name: Farmland (Wet)
         tex_direction:
           TOP: [6, 5]
-    
 
   - id: 61
     idStr: furnace
@@ -1298,25 +1297,25 @@ blocks:
 #       null
 #     1:
 #       null
-      2: 
+      2:
         name: Furnace (North)
         tex_direction:
           FORWARD: [12, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      3: 
+      3:
         name: Furnace (South)
         tex_direction:
           BACKWARD: [12, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      4: 
+      4:
         name: Furnace (West)
         tex_direction:
           LEFT: [12, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      5: 
+      5:
         name: Furnace (East)
         tex_direction:
           RIGHT: [12, 2]
@@ -1334,25 +1333,25 @@ blocks:
 #       null
 #     1:
 #       null
-      2: 
+      2:
         name: Lit Furnace (North)
         tex_direction:
           FORWARD: [13, 3]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      3: 
+      3:
         name: Lit Furnace (South)
         tex_direction:
           BACKWARD: [13, 3]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      4: 
+      4:
         name: Lit Furnace (West)
         tex_direction:
           LEFT: [13, 3]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      5: 
+      5:
         name: Lit Furnace (East)
         tex_direction:
           RIGHT: [13, 3]
@@ -1390,13 +1389,13 @@ blocks:
 #       null
 #     1:
 #       null
-      2: 
+      2:
         name: Ladder (North)
-      3: 
+      3:
         name: Ladder (South)
-      4: 
+      4:
         name: Ladder (West)
-      5: 
+      5:
         name: Ladder (East)
 
   - id: 66
@@ -1413,7 +1412,7 @@ blocks:
       0:
         name: Rail
       1:
-        name: Rail  
+        name: Rail
 
   - id: 67
     idStr: stone_stairs
@@ -1488,7 +1487,6 @@ blocks:
     type: TORCH
     explored: true
     opacity: 0
-
 
   - id: 76
     idStr: redstone_torch
@@ -1578,25 +1576,25 @@ blocks:
     tex: [6, 7]
 #   tex_direction_data: {0: SOUTH, 1: WEST, 2: NORTH, 3: EAST}
     data:
-      0: 
+      0:
         name: Pumpkin (South)
         tex_direction:
           BACKWARD: [7, 7]
           TOP: [6, 6]
           BOTTOM: [6, 6]
-      1: 
+      1:
         name: Pumpkin (West)
         tex_direction:
           LEFT: [7, 7]
           TOP: [6, 6]
           BOTTOM: [6, 6]
-      2: 
+      2:
         name: Pumpkin (North)
         tex_direction:
           FORWARD: [7, 7]
           TOP: [6, 6]
           BOTTOM: [6, 6]
-      3: 
+      3:
         name: Pumpkin (East)
         tex_direction:
           RIGHT: [7, 7]
@@ -1641,25 +1639,25 @@ blocks:
     tex: [6, 7]
 #   tex_direction_data: {0: SOUTH, 1: WEST, 2: NORTH, 3: EAST}
     data:
-      0: 
+      0:
         name: Jack-o'-Lantern (South)
         tex_direction:
           BACKWARD: [8, 7]
           TOP: [6, 6]
           BOTTOM: [6, 6]
-      1: 
+      1:
         name: Jack-o'-Lantern (West)
         tex_direction:
           LEFT: [8, 7]
           TOP: [6, 6]
           BOTTOM: [6, 6]
-      2: 
+      2:
         name: Jack-o'-Lantern (North)
         tex_direction:
           FORWARD: [8, 7]
           TOP: [6, 6]
           BOTTOM: [6, 6]
-      3: 
+      3:
         name: Jack-o'-Lantern (East)
         tex_direction:
           RIGHT: [8, 7]
@@ -1686,19 +1684,19 @@ blocks:
     type: THINSLICE
     opacity: 0
     data:
-      0: 
+      0:
         name: Redstone Repeater (Off) (North)
         tex_direction:
           TOP: [3, 8]
-      1: 
+      1:
         name: Redstone Repeater (Off) (East)
         tex_direction:
           TOP: [18, 7]
-      2: 
+      2:
         name: Redstone Repeater (Off) (South)
         tex_direction:
           TOP: [18, 8]
-      3: 
+      3:
         name: Redstone Repeater (Off) (West)
         tex_direction:
           TOP: [18, 9]
@@ -1712,19 +1710,19 @@ blocks:
     opacity: 0
     brightness: 9
     data:
-      0: 
+      0:
         name: Redstone Repeater (On) (North)
         tex_direction:
           TOP: [3, 9]
-      1: 
+      1:
         name: Redstone Repeater (On) (East)
         tex_direction:
           TOP: [18, 10]
-      2: 
+      2:
         name: Redstone Repeater (On) (South)
         tex_direction:
           TOP: [18, 11]
-      3: 
+      3:
         name: Redstone Repeater (On) (West)
         tex_direction:
           TOP: [18, 12]
@@ -1933,13 +1931,13 @@ blocks:
     data:
       0:
         name: Vines (Other)
-      1: 
+      1:
         name: Vines (North)
-      2: 
+      2:
         name: Vines (East)
-      4: 
+      4:
         name: Vines (South)
-      8: 
+      8:
         name: Vines (West)
 
   - id: 107
@@ -2024,7 +2022,6 @@ blocks:
     tex_direction:
       TOP: [6, 10]
       BOTTOM: [7, 11]
-    
 
   - id: 117
     idStr: brewing_stand
@@ -2199,25 +2196,25 @@ blocks:
 #       null
 #     1:
 #       null
-      2: 
+      2:
         name: Ender Chest (North)
         tex_direction:
           FORWARD: [16, 2]
           TOP: [17, 2]
           BOTTOM: [19, 2]
-      3: 
+      3:
         name: Ender Chest (South)
         tex_direction:
           BACKWARD: [16, 2]
           TOP: [17, 2]
           BOTTOM: [19, 2]
-      4: 
+      4:
         name: Ender Chest (West)
         tex_direction:
           LEFT: [16, 2]
           TOP: [17, 2]
           BOTTOM: [19, 2]
-      5: 
+      5:
         name: Ender Chest (East)
         tex_direction:
           RIGHT: [16, 2]
@@ -2361,17 +2358,17 @@ blocks:
         name: Anvil (East/West)
         tex_direction:
           TOP: [7, 14]
-          BOTTOM: [7, 13] 
+          BOTTOM: [7, 13]
       2:
         name: Anvil (North/South)
         tex_direction:
           TOP: [7, 14]
-          BOTTOM: [7, 13]          
+          BOTTOM: [7, 13]
       3:
         name: Anvil (East/West)
         tex_direction:
           TOP: [7, 14]
-          BOTTOM: [7, 13]          
+          BOTTOM: [7, 13]
       4:
         name: Anvil (Damaged)(North/South)
         tex_direction:
@@ -2401,7 +2398,7 @@ blocks:
         name: Anvil (Very Damaged)(North/South)
         tex_direction:
           TOP: [8, 14]
-          BOTTOM: [7, 13]          
+          BOTTOM: [7, 13]
       10:
         name: Anvil (Very Damaged)(North/South)
         tex_direction:
@@ -2412,7 +2409,6 @@ blocks:
         tex_direction:
           TOP: [8, 14]
           BOTTOM: [7, 13]
-
 
   - id: 146
     idStr: trapped_chest
@@ -2426,25 +2422,25 @@ blocks:
 #       null
 #     1:
 #       null
-      2: 
+      2:
         name: Trapped Chest (North)
         tex_direction:
           FORWARD: [18, 6]
           TOP: [16, 6]
           BOTTOM: [16, 6]
-      3: 
+      3:
         name: Trapped Chest (South)
         tex_direction:
           BACKWARD: [18, 6]
           TOP: [16, 6]
           BOTTOM: [16, 6]
-      4: 
+      4:
         name: Trapped Chest (West)
         tex_direction:
           LEFT: [18, 6]
           TOP: [16, 6]
           BOTTOM: [16, 6]
-      5: 
+      5:
         name: Trapped Chest (East)
         tex_direction:
           RIGHT: [18, 6]
@@ -2474,22 +2470,22 @@ blocks:
     name: Redstone Comparator (Off)
     type: THINSLICE
     mapcolor: [100, 100, 100]
-    tex: [11, 11] 
+    tex: [11, 11]
     opacity: 0
     data:
-      0: 
+      0:
         name: Redstone Comparator (Off) (North)
         tex_direction:
           TOP: [11, 11]
-      1: 
+      1:
         name: Redstone Comparator (Off) (East)
         tex_direction:
           TOP: [18, 13]
-      2: 
+      2:
         name: Redstone Comparator (Off) (South)
         tex_direction:
           TOP: [18, 14]
-      3: 
+      3:
         name: Redstone Comparator (Off) (West)
         tex_direction:
           TOP: [18, 15]
@@ -2503,19 +2499,19 @@ blocks:
     opacity: 0
     brightness: 8
     data:
-      0: 
+      0:
         name: Redstone Comparator (On) (North)
         tex_direction:
           TOP: [12, 11]
-      1: 
+      1:
         name: Redstone Comparator (On) (East)
         tex_direction:
           TOP: [19, 7]
-      2: 
+      2:
         name: Redstone Comparator (On) (South)
         tex_direction:
           TOP: [19, 8]
-      3: 
+      3:
         name: Redstone Comparator (On) (West)
         tex_direction:
           TOP: [19, 9]
@@ -2548,32 +2544,32 @@ blocks:
     mapcolor: [100, 100, 100]
     tex: [12, 15]
     data:
-      0: 
+      0:
         name: Hopper (Down)
         tex_direction:
           TOP: [13, 15]
           BOTTOM: [13, 15]
 #     1:
 #       null
-      2: 
+      2:
         name: Hopper (North)
         tex_direction:
           FORWARD: [10, 8]
           TOP: [13, 15]
           BOTTOM: [13, 15]
-      3: 
+      3:
         name: Hopper (South)
         tex_direction:
           BACKWARD: [10, 8]
           TOP: [13, 15]
           BOTTOM: [13, 15]
-      4: 
+      4:
         name: Hopper (West)
         tex_direction:
           LEFT: [10, 8]
           TOP: [13, 15]
           BOTTOM: [13, 15]
-      5: 
+      5:
         name: Hopper (East)
         tex_direction:
           RIGHT: [10, 8]
@@ -2614,7 +2610,6 @@ blocks:
           BACKWARD: [11, 15]
           SIDES: [17, 19]
 
-          
   - id: 156
     idStr: quartz_stairs
     name: Quartz Stairs
@@ -2649,25 +2644,25 @@ blocks:
         tex_direction:
           TOP: [18, 4]
           BOTTOM: [14, 3]
-      2: 
+      2:
         name: Dropper (North)
         tex_direction:
           FORWARD: [10, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      3: 
+      3:
         name: Dropper (South)
         tex_direction:
           BACKWARD: [10, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      4: 
+      4:
         name: Dropper (West)
         tex_direction:
           LEFT: [10, 2]
           TOP: [14, 3]
           BOTTOM: [14, 3]
-      5: 
+      5:
         name: Dropper (East)
         tex_direction:
           RIGHT: [10, 2]
@@ -2984,7 +2979,7 @@ blocks:
       15:
         name: Dark Oak Placeholder Wood (Bark Only)
         tex: [4, 15]
-        
+
   - id: 163
     idStr: acacia_stairs
     name: Acacia Wood Stairs
@@ -2998,13 +2993,13 @@ blocks:
     mapcolor: [157, 128, 79]
     tex: [1, 15]
     type: STAIRS
-    
+
   - id: 165
     idStr: slime
     name: Slime Block
     type: SEMISOLID
     tex: [17, 15]
-    
+
   - id: 166
     idStr: barrier
     name: Barrier
@@ -3012,7 +3007,7 @@ blocks:
     tex: [10, 1]
     type: GLASS
     opacity: 0
-    
+
   - id: 167
     idStr: iron_trapdoor
     name: Iron Trapdoor
@@ -3067,7 +3062,7 @@ blocks:
           SIDES: [16, 19]
           FORWARD: [2, 16]
           BACKWARD: [2, 16]
-        
+
   - id: 171
     idStr: carpet
     name: Carpet
@@ -3136,7 +3131,7 @@ blocks:
       15:
         tex: [1, 7]
         name: Black Carpet
-        mapcolor: [0, 0, 0] 
+        mapcolor: [0, 0, 0]
     type: THINSLICE
     opacity: 0
 
@@ -3145,7 +3140,7 @@ blocks:
     name: Hardened Clay
     mapcolor: [96, 61, 38]
     tex: [5, 15]
- 
+
   - id: 173
     idStr: coal_block
     name: Block of Coal
@@ -3186,7 +3181,7 @@ blocks:
         tex: [16, 14]
 #tall plant tops are dynamically changed ingame, but use multiple IDs for some reason.
       8:
-        name: Tall Plant Top 
+        name: Tall Plant Top
         tex: [5, 3]
       9:
         name: Tall Plant Top
@@ -3203,7 +3198,7 @@ blocks:
 
   - id: 176
     idStr: standing_banner
-    name: Free-Standing Banner 
+    name: Free-Standing Banner
     mapcolor: [20, 20, 20]
     tex: [19, 3]
     opacity: 0
@@ -3212,15 +3207,15 @@ blocks:
         name: Free-Standing Banner
 #     1:
 #       null
-      2: 
+      2:
         name: Free-Standing Banner (North)
-      3: 
+      3:
         name: Free-Standing Banner (South)
-      4: 
+      4:
         name: Free-Standing Banner (West)
-      5: 
+      5:
         name: Free-Standing Banner (East)
-    
+
   - id: 177
     idStr: wall_banner
     name: Wall-Mounted Banner
@@ -3232,13 +3227,13 @@ blocks:
         name: Wall-Mounted Banner
 #     1:
 #       null
-      2: 
+      2:
         name: Wall-Mounted Banner (North)
-      3: 
+      3:
         name: Wall-Mounted Banner (South)
-      4: 
+      4:
         name: Wall-Mounted Banner (West)
-      5: 
+      5:
         name: Wall-Mounted Banner (East)
 
   - id: 178
@@ -3269,7 +3264,7 @@ blocks:
       2:
         name: Chiseled Red Sandstone
         tex: [1, 20]
-    
+
   - id: 180
     idStr: red_sandstone_stairs
     name: Red Sandstone Stairs
@@ -3309,7 +3304,7 @@ blocks:
         name: Red Sandstone Slab
       8:
         name: Red Sandstone Slab (Upper)
-    
+
   - id: 183
     idStr: spruce_fence_gate
     name: Spruce Fence Gate
@@ -3317,7 +3312,7 @@ blocks:
     tex: [6, 12]
     type: FENCE_GATE
     opacity: 0
- 
+
   - id: 184
     idStr: birch_fence_gate
     name: Birch Fence Gate
@@ -3325,7 +3320,7 @@ blocks:
     tex: [6, 13]
     type: FENCE_GATE
     opacity: 0
-    
+
   - id: 185
     idStr: jungle_fence_gate
     name: Jungle Fence Gate
@@ -3341,7 +3336,7 @@ blocks:
     tex: [1, 15]
     type: FENCE_GATE
     opacity: 0
-    
+
   - id: 187
     idStr: acacia_fence_gate
     name: Acacia Fence Gate
@@ -3356,49 +3351,49 @@ blocks:
     mapcolor: [157, 128, 79]
     tex: [6, 12]
     opacity: 0
-    
+
   - id: 189
     idStr: birch_fence
     name: Birch Fence
     mapcolor: [157, 128, 79]
     tex: [6, 13]
     opacity: 0
-  
+
   - id: 190
     idStr: jungle_fence
     name: Jungle Fence
     mapcolor: [157, 128, 79]
     tex: [7, 12]
     opacity: 0
-    
+
   - id: 191
     idStr: dark_oak_fence
     name: Dark Oak Fence
     mapcolor: [157, 128, 79]
     tex: [1, 15]
     opacity: 0
-   
+
   - id: 192
     idStr: acacia_fence
     name: Acacia Fence
     mapcolor: [157, 128, 79]
     tex: [0, 15]
     opacity: 0
-    
+
   - id: 193
     idStr: spruce_door
     name: Spruce Door
     mapcolor: [157, 128, 79]
     tex: [5, 20]
     opacity: 0
-    
+
   - id: 194
     idStr: birch_door
     name: Birch Door
     mapcolor: [157, 128, 79]
     tex: [6, 20]
     opacity: 0
-  
+
   - id: 195
     idStr: jungle_door
     name: Jungle Door
@@ -3412,11 +3407,973 @@ blocks:
     mapcolor: [157, 128, 79]
     tex: [8, 20]
     opacity: 0
-    
+
   - id: 197
     idStr: dark_oak_door
     name: Dark Oak Door
     mapcolor: [157, 128, 79]
     tex: [9, 20]
     opacity: 0
-   
+
+items:
+
+  - id: 256
+    name: Iron Shovel
+    maxdamage: 250
+
+  - id: 257
+    name: Iron Pickaxe
+    maxdamage: 250
+
+  - id: 258
+    name: Iron Axe
+    maxdamage: 250
+
+  - id: 259
+    name: Flint and Steel
+    maxdamage: 64
+
+  - id: 260
+    name: Apple
+
+  - id: 261
+    name: Bow
+    maxdamage: 384
+
+  - id: 262
+    name: Arrow
+
+  - id: 263
+    idStr: coal
+    data:
+      0:
+        name: Coal
+      1:
+        name: Charcoal
+
+  - id: 264
+    name: Diamond
+
+  - id: 265
+    name: Iron Ingot
+
+  - id: 266
+    name: Gold Ingot
+
+  - id: 267
+    name: Iron Sword
+    maxdamage: 250
+
+  - id: 268
+    name: Wooden Sword
+    maxdamage: 59
+
+  - id: 269
+    name: Wooden Shovel
+    maxdamage: 59
+
+  - id: 270
+    name: Wooden Pickaxe
+    maxdamage: 59
+
+  - id: 271
+    name: Wooden Axe
+    maxdamage: 59
+
+  - id: 272
+    name: Stone Sword
+    maxdamage: 131
+
+  - id: 273
+    name: Stone Shovel
+    maxdamage: 131
+
+  - id: 274
+    name: Stone Pickaxe
+    maxdamage: 131
+
+  - id: 275
+    name: Stone Axe
+    maxdamage: 131
+
+  - id: 276
+    name: Diamond Sword
+    maxdamage: 1561
+
+  - id: 277
+    name: Diamond Shovel
+    maxdamage: 1561
+
+  - id: 278
+    name: Diamond Pickaxe
+    maxdamage: 1561
+
+  - id: 279
+    name: Diamond Axe
+    maxdamage: 1561
+
+  - id: 280
+    name: Stick
+
+  - id: 281
+    name: Bowl
+    stacksize: 16
+
+  - id: 282
+    name: Mushroom Stew
+
+  - id: 283
+    name: Golden Sword
+    maxdamage: 32
+
+  - id: 284
+    name: Golden Shovel
+    maxdamage: 32
+
+  - id: 285
+    name: Golden Pickaxe
+    maxdamage: 32
+
+  - id: 286
+    name: Golden Axe
+    maxdamage: 32
+
+  - id: 287
+    name: String
+
+  - id: 288
+    name: Feather
+
+  - id: 289
+    name: Gunpowder
+
+  - id: 290
+    name: Wooden Hoe
+    maxdamage: 59
+
+  - id: 291
+    name: Stone Hoe
+    maxdamage: 131
+
+  - id: 292
+    name: Iron Hoe
+    maxdamage: 250
+
+  - id: 293
+    name: Diamond Hoe
+    maxdamage: 1561
+
+  - id: 294
+    name: Golden Hoe
+    maxdamage: 32
+
+  - id: 295
+    name: Seeds
+
+  - id: 296
+    name: Wheat
+
+  - id: 297
+    name: Bread
+
+  - id: 298
+    name: Leather Cap
+    maxdamage: 34
+
+  - id: 299
+    name: Leather Tunic
+    maxdamage: 48
+
+  - id: 300
+    name: Leather Pants
+    maxdamage: 46
+
+  - id: 301
+    name: Leather Boots
+    maxdamage: 40
+
+  - id: 302
+    name: Chainmail Helmet
+    maxdamage: 68
+
+  - id: 303
+    name: Chainmail Chestplate
+    maxdamage: 96
+
+  - id: 304
+    name: Chainmail Leggings
+    maxdamage: 92
+
+  - id: 305
+    name: Chainmail Boots
+    maxdamage: 80
+
+  - id: 306
+    name: Iron Helmet
+    maxdamage: 136
+
+  - id: 307
+    name: Iron Chestplate
+    maxdamage: 192
+
+  - id: 308
+    name: Iron Leggings
+    maxdamage: 184
+
+  - id: 309
+    name: Iron Boots
+    maxdamage: 160
+
+  - id: 310
+    name: Diamond Helmet
+    maxdamage: 272
+
+  - id: 311
+    name: Diamond Chestplate
+    maxdamage: 384
+
+  - id: 312
+    name: Diamond Leggings
+    maxdamage: 368
+
+  - id: 313
+    name: Diamond Boots
+    maxdamage: 320
+
+  - id: 314
+    name: Golden Helmet
+    maxdamage: 68
+
+  - id: 315
+    name: Golden Chestplate
+    maxdamage: 96
+
+  - id: 316
+    name: Golden Leggings
+    maxdamage: 92
+
+  - id: 317
+    name: Golden Boots
+    maxdamage: 80
+
+  - id: 318
+    name: Flint
+
+  - id: 319
+    name: Raw Porkchop
+
+  - id: 320
+    name: Cooked Porkchop
+
+  - id: 321
+    name: Painting
+
+  - id: 322
+    name: Golden Apple
+    data:
+      0:
+        name: Golden Apple
+      1:
+        name: Enchanted Golden Apple
+
+  - id: 323
+    name: Sign
+    stacksize: 16
+
+  - id: 324
+    name: Wooden Door
+
+  - id: 325
+    name: Bucket
+    stacksize: 16
+
+  - id: 326
+    name: Water Bucket
+    stacksize: 1
+
+  - id: 327
+    name: Lava Bucket
+    stacksize: 1
+
+  - id: 328
+    name: Minecart
+    stacksize: 1
+
+  - id: 329
+    name: Saddle
+    stacksize: 1
+
+  - id: 330
+    name: Iron Door
+    stacksize: 1
+
+  - id: 331
+    name: Redstone
+
+  - id: 332
+    name: Snowball
+    stacksize: 16
+
+  - id: 333
+    name: Boat
+    stacksize: 1
+
+  - id: 334
+    name: Leather
+
+  - id: 335
+    name: Milk Bucket
+    stacksize: 1
+
+  - id: 336
+    name: Brick
+
+  - id: 337
+    name: Clay
+    stacksize: 16
+
+  - id: 338
+    name: Sugar Canes
+
+  - id: 339
+    name: Paper
+
+  - id: 340
+    name: Book
+
+  - id: 341
+    name: Slimeball
+
+  - id: 342
+    name: Minecart with Chest
+    stacksize: 1
+
+  - id: 343
+    name: Minecart with Furnace
+    stacksize: 1
+
+  - id: 344
+    name: Egg
+
+  - id: 345
+    name: Compass
+    stacksize: 1
+
+  - id: 346
+    name: Fishing Rod
+    stacksize: 1
+
+  - id: 347
+    name: Clock
+    stacksize: 1
+
+  - id: 348
+    name: Glowstone Dust
+
+  - id: 349
+    name: Raw Fish
+    data:
+      0:
+        name: Raw Fish
+      1:
+        name: Raw Salmon
+      2:
+        name: Clownfish
+      3:
+        name: Pufferfish
+
+  - id: 350
+    name: Cooked Fish
+    data:
+      0:
+        name: Cooked Fish
+      1:
+        name: Cooked Salmon
+
+  - id: 351
+    name: Dye
+    data:
+      0:
+        name: Ink Sack
+      1:
+        name: Rose Red
+      2:
+        name: Cactus Green
+      3:
+        name: Cocoa Beans
+      4:
+        name: Lapis Lazuli
+      5:
+        name: Purple Dye
+      6:
+        name: Cyan Dye
+      7:
+        name: Light Gray Dye
+      8:
+        name: Gray Dye
+      9:
+        name: Pink Dye
+      10:
+        name: Lime Dye
+      11:
+        name: Dandelion Yellow
+      12:
+        name: Light Blue Dye
+      13:
+        name: Magenta Dye
+      14:
+        name: Orange Dye
+      15:
+        name: Bone Meal
+
+  - id: 352
+    name: Bone
+
+  - id: 353
+    name: Sugar
+
+  - id: 354
+    name: Cake
+    stacksize: 1
+
+  - id: 355
+    name: Bed
+    stacksize: 1
+
+  - id: 356
+    name: Redstone Repeater
+
+  - id: 357
+    name: Cookie
+
+  - id: 358
+    name: Map
+    stacksize: 1
+
+  - id: 359
+    name: Shears
+    maxdamage: 238
+
+  - id: 360
+    name: Melon
+
+  - id: 361
+    name: Pumpkin Seeds
+
+  - id: 362
+    name: Melon Seeds
+
+  - id: 363
+    name: Raw Beef
+
+  - id: 364
+    name: Steak
+
+  - id: 365
+    name: Raw Chicken
+
+  - id: 366
+    name: Cooked Chicken
+
+  - id: 367
+    name: Rotten Flesh
+
+  - id: 368
+    name: Ender Pearl
+    stacksize: 16
+
+  - id: 369
+    name: Blaze Rod
+
+  - id: 370
+    name: Ghast Tear
+
+  - id: 371
+    name: Gold Nugget
+
+  - id: 372
+    name: Nether Wart
+
+  - id: 374
+    name: Glass Bottle
+    stacksize: 3
+
+  - id: 375
+    name: Spider Eye
+
+  - id: 376
+    name: Fermented Spider Eye
+
+  - id: 377
+    name: Blaze Powder
+
+  - id: 378
+    name: Magma Cream
+
+  - id: 379
+    name: Brewing Stand
+    stacksize: 1
+
+  - id: 380
+    name: Cauldron
+    stacksize: 1
+
+  - id: 381
+    name: Eye of Ender
+
+  - id: 382
+    name: Glistering Melon
+
+  - id: 384
+    name: Bottle o' Enchanting
+
+  - id: 385
+    name: Fire Charge
+
+  - id: 386
+    name: Book and Quill
+    stacksize: 1
+
+  - id: 387
+    name: Written Book
+    stacksize: 1
+
+  - id: 388
+    name: Emerald
+
+  - id: 389
+    name: Item Frame
+
+  - id: 390
+    name: Flower Pot
+
+  - id: 391
+    name: Carrot
+
+  - id: 392
+    name: Potato
+
+  - id: 393
+    name: Baked Potato
+
+  - id: 394
+    name: Poisonous Potato
+
+  - id: 395
+    name: Empty Map
+    stacksize: 1
+
+  - id: 396
+    name: Golden Carrot
+
+  - id: 397
+    name: Head
+    data:
+      0:
+        name: Skeleton Head
+      1:
+        name: Wither Skeleton Head
+      2:
+        name: Zombie Head
+      3:
+        name: Player Head
+      4:
+        name: Creper Head
+
+  - id: 398
+    name: Carrot on a Stick
+    maxdamage: 25
+
+  - id: 399
+    name: Nether Star
+
+  - id: 400
+    name: Pumpkin Pie
+
+  - id: 401
+    name: Firework Rocket
+
+  - id: 402
+    name: Firework Star
+
+  - id: 403
+    name: Enchanted Book
+
+  - id: 404
+    name: Redstone Comparator
+
+  - id: 405
+    name: Nether Brick
+
+  - id: 406
+    name: Nether Quartz
+
+  - id: 407
+    name: Minecart with TNT
+    stacksize: 1
+
+  - id: 408
+    name: Minecart with Hopper
+    stacksize: 1
+
+  - id: 409
+    name: Prismarine Shard
+
+  - id: 410
+    name: Prismarine Crystals
+
+  - id: 411
+    name: Raw Rabbit
+
+  - id: 412
+    name: Cooked Rabbit
+
+  - id: 413
+    name: Rabbit Stew
+
+  - id: 414
+    name: Rabbit's Foot
+
+  - id: 415
+    name: Rabbit Hide
+
+  - id: 416
+    name: Armor Stand
+
+  - id: 417
+    name: Iron Horse Armor
+    stacksize: 1
+
+  - id: 418
+    name: Gold Horse Armor
+    stacksize: 1
+
+  - id: 419
+    name: Diamond Horse Armor
+    stacksize: 1
+
+  - id: 420
+    name: Lead
+
+  - id: 421
+    name: Name Tag
+
+  - id: 422
+    name: Minecart with Command Block
+    stacksize: 1
+
+  - id: 423
+    name: Raw Mutton
+
+  - id: 424
+    name: Cooked Mutton
+
+  - id: 425
+    name: Banner
+      0:
+        name: Black Banner
+      1:
+        name: Red Banner
+      2:
+        name: Green Banner
+      3:
+        name: Brown Banner
+      4:
+        name: Blue Banner
+      5:
+        name: Purple Banner
+      6:
+        name: Cyan Banner
+      7:
+        name: Light Gray Banner
+      8:
+        name: Gray Banner
+      9:
+        name: Pink Banner
+      10:
+        name: Lime Banner
+      11:
+        name: Yellow Banner
+      12:
+        name: Light Blue Banner
+      13:
+        name: Magenta Banner
+      14:
+        name: Orange Banner
+      15:
+        name: White Banner
+
+  - id: 427
+    name: Spruce Door
+
+  - id: 428
+    name: Birch Door
+
+  - id: 429
+    name: Jungle Door
+
+  - id: 430
+    name: Acacia Door
+
+  - id: 431
+    name: Dark Oak Door
+
+  - id: 2256
+    name: C418 - 13
+    stacksize: 1
+
+  - id: 2257
+    name: C418 - cat
+    stacksize: 1
+
+  - id: 2258
+    name: C418 - blocks
+    stacksize: 1
+
+  - id: 2259
+    name: C418 - chirp
+    stacksize: 1
+
+  - id: 2260
+    name: C418 - far
+    stacksize: 1
+
+  - id: 2261
+    name: C418 - mall
+    stacksize: 1
+
+  - id: 2262
+    name: C418 - mellohi
+    stacksize: 1
+
+  - id: 2263
+    name: C418 - stal
+    stacksize: 1
+
+  - id: 2264
+    name: C418 - strad
+    stacksize: 1
+
+  - id: 2265
+    name: C418 - ward
+    stacksize: 1
+
+  - id: 2266
+    name: C418 - 11
+    stacksize: 1
+
+  - id: 2267
+    name: C418 - wait
+    stacksize: 1
+
+  - id: 373
+    name: Potion
+    stacksize: 1
+    data:
+      0:
+        name: Water Bottle
+        stacksize: 64
+      16:
+        name: Awkward Potion
+      32:
+        name: Thick Potion
+      64:
+        name: Mundane Potion
+      8192:
+        name: Mundane Potion
+      8193:
+        name: Regeneration Potion (0:45)
+      8194:
+        name: Swiftness Potion (3:00)
+      8195:
+        name: Fire Resistance Potion (3:00)
+      8196:
+        name: Poison Potion (0:45)
+      8197:
+        name: Healing Potion
+      8198:
+        name: Night Vision Potion (3:00)
+      8200:
+        name: Weakness Potion (1:30)
+      8201:
+        name: Strength Potion (3:00)
+      8202:
+        name: Slowness Potion (1:30)
+      8204:
+        name: Harming Potion
+      8205:
+        name: Water Breathing Potion (3:00)
+      8206:
+        name: Invisibility Potion (3:00)
+      8225:
+        name: Regeneration Potion II (0:22)
+      8226:
+        name: Swiftness Potion II (1:30)
+      8228:
+        name: Poison Potion II (0:22)
+      8229:
+        name: Healing Potion II
+      8233:
+        name: Strength Potion II (1:30)
+      8235:
+        name: Leaping Potion II (1:30)
+      8236:
+        name: Harming Potion II
+      8257:
+        name: Regeneration Potion (2:00)
+      8258:
+        name: Swiftness Potion (8:00)
+      8259:
+        name: Fire Resistance Potion (8:00)
+      8260:
+        name: Poison Potion (2:00)
+      8262:
+        name: Night Vision Potion (8:00)
+      8264:
+        name: Weakness Potion (4:00)
+      8265:
+        name: Strength Potion (8:00)
+      8266:
+        name: Slowness Potion (1:30)
+      8267:
+        name: Leaping Potion (3:00)
+      8269:
+        name: Water Breathing Potion (8:00)
+      8270:
+        name: Invisibility Potion (8:00)
+      8289:
+        name: Regeneration Potion II (1:00)
+      8290:
+        name: Swiftness Potion II (4:00)
+      8292:
+        name: Poison Potion II (1:00)
+      8297:
+        name: Strength Potion II (4:00)
+      16384:
+        name: Mundane Splash
+      16385:
+        name: Regeneration Splash (0:33)
+      16386:
+        name: Swiftness Splash (2:15)
+      16387:
+        name: Fire Resistance Splash (2:15)
+      16388:
+        name: Poison Splash (0:33)
+      16389:
+        name: Healing Splash
+      16390:
+        name: Night Vision Splash (2:15)
+      16392:
+        name: Weakness Splash (1:07)
+      16393:
+        name: Strength Splash (2:15)
+      16394:
+        name: Slowness Splash (1:07)
+      16396:
+        name: Harming Splash
+      16397:
+        name: Breathing Splash (2:15)
+      16398:
+        name: Invisibility Splash (2:15)
+      16417:
+        name: Regeneration Splash II (0:16)
+      16418:
+        name: Swiftness Splash II (1:07)
+      16420:
+        name: Poison Splash II (0:16)
+      16421:
+        name: Healing Splash II
+      16425:
+        name: Strength Splash II (1:07)
+      16427:
+        name: Leaping Splash II (1:07)
+      16428:
+        name: Harming Splash II
+      16449:
+        name: Regeneration Splash (1:30)
+      16450:
+        name: Swiftness Splash (6:00)
+      16451:
+        name: Fire Resistance Splash (6:00)
+      16452:
+        name: Poison Splash (1:30)
+      16454:
+        name: Night Vision Splash (6:00)
+      16456:
+        name: Weakness Splash (3:00)
+      16457:
+        name: Strength Splash (6:00)
+      16458:
+        name: Slowness Splash (3:00)
+      16459:
+        name: Leaping Splash (2:15)
+      16461:
+        name: Water Breathing Splash (6:00)
+      16462:
+        name: Invisibility Splash (6:00)
+      16481:
+        name: Regeneration Splash II (0:45)
+      16482:
+        name: Swiftness Splash II (3:00)
+      16484:
+        name: Poison Splash II (0:45)
+      16489:
+        name: Strength Splash II (3:00)
+
+  - id: 383
+    name: Spawn Egg
+    data:
+      50:
+        name: Spawn Egg (Creeper)
+      51:
+        name: Spawn Egg (Skeleton)
+      52:
+        name: Spawn Egg (Spider)
+      54:
+        name: Spawn Egg (Zombie)
+      55:
+        name: Spawn Egg (Slime)
+      56:
+        name: Spawn Egg (Ghast)
+      57:
+        name: Spawn Egg (Zombie Pigmen)
+      58:
+        name: Spawn Egg (Enderman)
+      59:
+        name: Spawn Egg (Cave Spider)
+      60:
+        name: Spawn Egg (Silverfish)
+      61:
+        name: Spawn Egg (Blaze)
+      62:
+        name: Spawn Egg (Magma Cube)
+      65:
+        name: Spawn Egg (Bat)
+      66:
+        name: Spawn Egg (Witch)
+      67:
+        name: Spawn Egg (Endermite)
+      68:
+        name: Spawn Egg (Guardian)
+      90:
+        name: Spawn Egg (Pig)
+      91:
+        name: Spawn Egg (Sheep)
+      92:
+        name: Spawn Egg (Cow)
+      93:
+        name: Spawn Egg (Chicken)
+      94:
+        name: Spawn Egg (Squid)
+      95:
+        name: Spawn Egg (Wolf)
+      96:
+        name: Spawn Egg (Mooshroom)
+      98:
+        name: Spawn Egg (Ocelot)
+      100:
+        name: Spawn Egg (Horse)
+      101:
+        name: Spawn Egg (Rabbit)
+      120:
+        name: Spawn Egg (Villager)

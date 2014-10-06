@@ -126,12 +126,11 @@ class PlayerPositionPanel(Panel):
         self.level = tool.editor.level
         if hasattr(self.level, 'players'):
             players = self.level.players or ["[No players]"]
-            if not self.level.oldPlayerFolderFormat:
-                for player in players:
-                    if player != "Player":
-                        self.player_UUID[version_utils.getPlayerNameFromUUID(player)] = player
-                self.player_UUID["Player"] = "Player"
-                players = self.player_UUID.keys()
+            for player in players:
+                if player != "Player":
+                    self.player_UUID[version_utils.getPlayerNameFromUUID(player)] = player
+            self.player_UUID["Player"] = "Player"
+            players = self.player_UUID.keys()
 
         else:
             players = ["Player"]
@@ -165,10 +164,7 @@ class PlayerPositionPanel(Panel):
 
     @property
     def selectedPlayer(self):
-        if not self.level.oldPlayerFolderFormat:
-            return self.player_UUID[self.players[self.table.index]]
-        else:
-            return self.players[self.table.index]
+        return self.player_UUID[self.players[self.table.index]]
 
 
 class PlayerPositionTool(EditorTool):

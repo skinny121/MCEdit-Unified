@@ -5,7 +5,11 @@ import time
 def step(slot):
     texSlot = slot*16
     return texSlot
-
+'''
+Empty comment lines like:
+#
+are for texture spaces that I don't know what should go there
+'''
 textureSlots = {
     # Start Top Row
     "grass_top": (step(0),step(0)),
@@ -22,6 +26,7 @@ textureSlots = {
     "web": (step(11),step(0)),
     "flower_rose": (step(12),step(0)),
     "flower_dandelion": (step(13),step(0)),
+    #
     "sapling_oak": (step(15),step(0)),
     "flower_blue_orchid": (step(16),step(0)),
     "flower_allium": (step(17),step(0)),
@@ -41,6 +46,7 @@ textureSlots = {
     "gold_block": (step(7),step(1)),
     "diamond_block": (step(8),step(1)),
     "emerald_block": (step(9),step(1)),
+    #
     "red_sand": (step(11),step(1)),
     "mushroom_red": (step(12),step(1)),
     "mushroom_brown": (step(13),step(1)),
@@ -57,6 +63,25 @@ textureSlots = {
     "gold_ore": (step(0),step(2)),
     "iron_ore": (step(1),step(2)),
     "coal_ore": (step(2),step(2)),
+    "bookshelf": (step(3),step(2)),
+    "cobblestone_mossy": (step(4),step(2)),
+    "obsidian": (step(5),step(2)),
+    #
+    "tallgrass": (step(7),step(2)),
+    #
+    "beacon": (step(9),step(2)),
+    "dropper_front_horizontal": (step(10),step(2)),
+    "crafting_table_top": (step(11),step(2)),
+    "furnace_front_off": (step(12),step(2)),
+    "furnace_side": (step(13),step(2)),
+    "dispenser_front_horizontal": (step(14),step(2)),
+    "fire_layer_1": (step(15),step(2)),
+    #
+    #
+    #
+    #
+    "daylight_detector_side": (step(20),step(2)),
+    # End Third Row
     }
 
 class ResourcePack:

@@ -7,6 +7,7 @@ def step(slot):
     return texSlot
 
 textureSlots = {
+    # Start Top Row
     "grass_top": (step(0),step(0)),
     "stone": (step(1),step(0)),
     "dirt": (step(2),step(0)),
@@ -24,7 +25,18 @@ textureSlots = {
     "sapling_oak": (step(15),step(0)),
     "flower_blue_orchid": (step(16),step(0)),
     "flower_allium": (step(17),step(0)),
-    
+    "flower_houstonia": (step(18),step(0)),
+    "flower_tulip_red": (step(19),step(0)),
+    "sapling_roofed_oak": (step(20),step(0)),
+    # End Top Row
+
+    # Start Second Row
+    "cobblestone": (step(0),step(1)),
+    "bedrock": (step(1),step(1)),
+    "sand": (step(2),step(1)),
+    "gravel": (step(3),step(1)),
+    "log_oak": (step(4),step(1)),
+    "log_oak_top": (step(5),step(1)),
     }
 
 class ResourcePack:

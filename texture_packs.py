@@ -37,6 +37,26 @@ textureSlots = {
     "gravel": (step(3),step(1)),
     "log_oak": (step(4),step(1)),
     "log_oak_top": (step(5),step(1)),
+    "iron_block": (step(6),step(1)),
+    "gold_block": (step(7),step(1)),
+    "diamond_block": (step(8),step(1)),
+    "emerald_block": (step(9),step(1)),
+    "red_sand": (step(11),step(1)),
+    "mushroom_red": (step(12),step(1)),
+    "mushroom_brown": (step(13),step(1)),
+    "sapling_jungle": (step(14),step(1)),
+    "fire_layer_0": (step(15),step(1)),
+    "flower_tulip_orange": (step(16),step(1)),
+    "flower_tulip_white": (step(17),step(1)),
+    "flower_tulip_pink": (step(18),step(1)),
+    "flower_oxeye_daisy": (step(19),step(1)),
+    "sapling_acacia": (step(20),step(1)),
+    # End Second Row
+
+    # Start Third Row
+    "gold_ore": (step(0),step(2)),
+    "iron_ore": (step(1),step(2)),
+    "coal_ore": (step(2),step(2)),
     }
 
 class ResourcePack:
@@ -59,7 +79,11 @@ class ResourcePack:
                     block_name = name.filename.split("/")[-1]
                     block_name = block_name.split(".")[0]
                     zfile.extract(name.filename, "textures/")
-                    self.block_image[block_name] = Image.open("textures/"+name.filename)
+                    possible_texture = Image.open("textures/"+name.filename)
+                    if possible_texture.size == (16, 16):
+                        self.block_image[block_name] = Image.open("textures/"+name.filename)
+                    else:
+                        self.block_image[block_name] = Image.open("textures/"+name.filename).crop((0,0,16,16))
         self.parse_terrain_png()
 
     # FIXME: Use a Dictionary to find out were to put the textures
@@ -72,19 +96,7 @@ class ResourcePack:
                 new_terrain.paste(image, slot, image)
             except:
                 pass
-                
-
-        '''
-        new_terrain.paste(self.block_image["grass_top"], textureSlots["grass_top"])
-        new_terrain.paste(self.block_image["stone"], textureSlots["stone"])
-        new_terrain.paste(self.block_image["dirt"], textureSlots["dirt"])
-        new_terrain.paste(self.block_image["grass_side"], (step(3),step(0)))
-        new_terrain.paste(self.block_image["planks_oak"], (step(4),step(0)))
-        new_terrain.paste(self.block_image["stone_slab_side"], (step(5),step(0)))
-        new_terrain.paste(self.block_image["stone_slab_top"], (step(6),step(0)))
-        '''
         
         new_terrain.save(self.pack_name.replace(" ", "_")+".png")
         new_terrain.show()
-        
 rp = ResourcePack('OCD pack 1.8.zip', "OCD Pack")

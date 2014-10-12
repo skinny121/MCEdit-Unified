@@ -63,3 +63,6 @@ filters/modifyitemstrings.py
 .pydevproject
 .settings
 Thumbs.db
+
+# Minecraft Stuff
+textures/

@@ -2239,8 +2239,8 @@ class FenceGateBlockRenderer(BlockRenderer):
                   pymclevel.materials.alphaMaterials.BirchFenceGate.ID,
                   pymclevel.materials.alphaMaterials.JungleFenceGate.ID,
                   pymclevel.materials.alphaMaterials.DarkOakFenceGate.ID,
-                  pymclevel.materials.alphaMaterials.AcaciaFenceGate.ID
-    ]
+                  pymclevel.materials.alphaMaterials.AcaciaFenceGate.ID]
+
     closedFenceTemplates = numpy.array([
         makeVertexTemplates(0, 0, 3 / 8., 1, .8, 5 / 8.),
         makeVertexTemplates(3 / 8., 0, 0, 5 / 8., .8, 1)])
@@ -2254,6 +2254,24 @@ class FenceGateBlockRenderer(BlockRenderer):
          makeVertexTemplates(7 / 8., 0, 0, 1, .8, 5 / 8.)],
         [makeVertexTemplates(3 / 8., 0, 0, 1, .8, 1 / 8.),
          makeVertexTemplates(3 / 8., 0, 7 / 8., 1, .8, 1)]])
+
+    woodTypes = {
+        pymclevel.materials.alphaMaterials.FenceGate: pymclevel.materials.alphaMaterials.WoodPlanks,
+        pymclevel.materials.alphaMaterials.SpruceFenceGate: pymclevel.materials.alphaMaterials.SprucePlanks,
+        pymclevel.materials.alphaMaterials.BirchFenceGate: pymclevel.materials.alphaMaterials.BirchPlanks,
+        pymclevel.materials.alphaMaterials.JungleFenceGate: pymclevel.materials.alphaMaterials.JunglePlanks,
+        pymclevel.materials.alphaMaterials.DarkOakFenceGate: pymclevel.materials.alphaMaterials.DarkOakPlanks,
+        pymclevel.materials.alphaMaterials.AcaciaFenceGate: pymclevel.materials.alphaMaterials.AcaciaPlanks
+    }
+
+    def to_wood_type(self, array, slice):
+        array = array.copy()
+        data = numpy.zeros(array.shape, dtype=numpy.uint8)
+        for k, v in self.woodTypes.iteritems():
+            indices = array == k.ID
+            array[indices] = v.ID
+            data[indices] = v.blockData
+        return array[slice], data[slice]
 
     def fenceGateVertices(self, facingBlockIndices, blocks, blockMaterials, blockData, areaBlockLights, texMap):
         fenceMask = self.getMaterialIndices(blockMaterials)
@@ -2272,6 +2290,16 @@ class FenceGateBlockRenderer(BlockRenderer):
 
         yield
 
+        # make top face show texture from wood planks texture
+
+        # get closed textures
+        closedTexMap = texMap(blocks[closedGateIndices], 0)[..., numpy.newaxis, :]
+        closedTexMap[..., 2, :, :] = texMap(*self.to_wood_type(blocks, closedGateIndices))[..., 2, numpy.newaxis, :]
+
+        # get open textures
+        openTexMap = texMap(blocks[openGateIndices], 0)[..., numpy.newaxis, :]
+        openTexMap[..., 2, :, :] = texMap(*self.to_wood_type(blocks, openGateIndices))[..., 2, numpy.newaxis, :]
+
         # closed gate
         vertexArray = numpy.zeros((len(closedGateIndices[0]), 6, 4, 6), dtype='float32')
         for indicies in range(3):
@@ -2282,7 +2310,7 @@ class FenceGateBlockRenderer(BlockRenderer):
 
         vertexArray[..., 0:5] += self.closedFenceTemplates[closedGateData][..., 0:5]
 
-        vertexArray[_ST] += texMap(blocks[closedGateIndices], 0)[..., numpy.newaxis, :]
+        vertexArray[_ST] += closedTexMap
 
         vertexArray.view('uint8')[_RGB] = self.closedFenceTemplates[closedGateData][..., 5][..., numpy.newaxis]
         vertexArray.view('uint8')[_A] = 0xFF
@@ -2293,6 +2321,7 @@ class FenceGateBlockRenderer(BlockRenderer):
         self.vertexArrays = [vertexArray]
 
         # open gate
+        # render in 2 parts(each side of the gate)
         for i in range(2):
             vertexArray = numpy.zeros((len(openGateIndices[0]), 6, 4, 6), dtype='float32')
             for indicies in range(3):
@@ -2303,7 +2332,7 @@ class FenceGateBlockRenderer(BlockRenderer):
 
             vertexArray[..., 0:5] += self.openFenceTemplates[openGateData, i][..., 0:5]
 
-            vertexArray[_ST] += texMap(blocks[openGateIndices], 0)[..., numpy.newaxis, :]
+            vertexArray[_ST] += openTexMap
 
             vertexArray.view('uint8')[_RGB] = self.openFenceTemplates[openGateData, i] \
                 [..., 5][..., numpy.newaxis]
